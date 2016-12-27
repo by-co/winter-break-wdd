@@ -1,9 +1,9 @@
 # winter-break-wdd
 Homework assignments from http://wdd.io.
 
-- [ ] hw1: HTML | just the basics
-- [ ] hw2: CSS | using `div` and `span`
-- [ ] hw3
-- [ ] hw4
+- [x] hw1: HTML | just the basics
+- [x] hw2: CSS | using `div` and `span`
+- [ ] hw3: CSS | containers, buttons, fonts
+- [ ] hw4: CSS | positioning
 - [ ] hw5
 - [ ] hw6
