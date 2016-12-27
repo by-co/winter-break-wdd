@@ -1,0 +1,54 @@
+.button {
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font: 14px sans-serif;
+    font-weight: bolder;
+}
+
+.input {
+    margin-bottom: 0.5em;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.line {
+    border-bottom: 1px solid;
+    border-color: lightgray;
+}
+
+.about, #contact{
+    margin: 1em 0;
+}
+
+#name {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.67em;
+}
+
+#major {
+    font-style: italic;
+}
+
+#me img {
+    width: 450px;
+}
+#contact {
+    
+}
+
+input[type=text], textarea {
+    margin-left: 5px;
+    padding: 2px 5px;
+}
+
+ul, ol {
+    margin: 0;
+}
