@@ -123,7 +123,10 @@ width: 100%;
 }
 #q5-container {
     /* START SOLUTION */
-    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     /* END SOLUTION */
     width: 360px;
     margin-left: auto;
@@ -134,9 +137,7 @@ width: 100%;
 }
 #q5-submit {
     /* START SOLUTION */
-    position: absolute;
-    top: 20px;
-    left: 90px;
+    margin: 2px 0;
     /* END SOLUTION */
     background: #5485bb;
     color: white;
@@ -147,9 +148,7 @@ width: 100%;
 }
 #q5-cancel {
     /* START SOLUTION */
-    position: absolute;
-    top: 65px;
-    left: 90px;
+    margin: 2px 0;
     /* END SOLUTION */
     background: #de6868;
     color: white;
