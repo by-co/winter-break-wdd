@@ -48,15 +48,19 @@ width: 100%;
 
 /* Question 2 */
 
+#question2 {
+    margin: 30px;
+}
 #q2-rectangle {
     width: 600px;
     background: #5485bb;
     padding: 20px;
 }
-#question2 {
-    margin: 30px;
-}
 .q2-square {
+    /* START SOLUTION */
+    display: inline-block;
+    margin: 0 10px;
+    /* END SOLUTION */
     width: 50px;
     height: 50px;
     background: #2f353f;
@@ -65,36 +69,42 @@ width: 100%;
 /* Question 3 */
 
 #question3 {
-height: 2400px;
-
+    height: 2400px;
 }
 #q3-topbar {
-padding: 10px 0px;
-background: #2f353f;
+    padding: 10px 0px;
+    background: #2f353f;
+    /* START SOLUTION */
+    position: fixed;
+    width: 100%;
+    /* END SOLUTION */
+    
 }
-
 #q3-topbar-text {
-color: white;
-padding: 0px 30px;
-font-size: 12px;
-font-weight: 700;
-line-height: 30px;
+    color: white;
+    padding: 0px 30px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
 }
-
 
 
 /* Question 4 */
 
-#question4{
+#question4 {
 
 }
-
 #q4-hero {
     background: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 20px;
     font-size: 24px;
     font-weight: 100;
+    position: absolute;
+    /* START SOLUTION */
+    top: 50%;
+    margin-top: -26.5px;
+    /* END SOLUTION */
 }
 #q4-background {
 	background: url('background.jpg');
@@ -112,6 +122,9 @@ line-height: 30px;
     padding-top: 40px;
 }
 #q5-container {
+    /* START SOLUTION */
+    position: relative;
+    /* END SOLUTION */
     width: 360px;
     margin-left: auto;
     margin-right: auto;
@@ -120,6 +133,11 @@ line-height: 30px;
     margin-top: 30px;
 }
 #q5-submit {
+    /* START SOLUTION */
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    /* END SOLUTION */
     background: #5485bb;
     color: white;
     font-size: 12px;
@@ -128,6 +146,11 @@ line-height: 30px;
     padding: 10px 0px;
 }
 #q5-cancel {
+    /* START SOLUTION */
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    /* END SOLUTION */
     background: #de6868;
     color: white;
     font-size: 12px;

@@ -7,3 +7,5 @@ Homework assignments from http://wdd.io.
 - [ ] hw4: CSS | positioning
 - [ ] hw5
 - [ ] hw6
+
+* assignments are from March 2015 and do not reflect the current curriculum of WDD
